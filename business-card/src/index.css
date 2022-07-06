@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container{
+  max-width: 317px;
+  margin: auto;
+  background-color: #1a1b20;
+}
+.container img{
+  max-width: 317px;
+}
+.info{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.name{
+  margin-bottom: 2px;
+}
+.ocupation{
+  margin: 0px;
+  font-weight: 500;
+  color: #e0a88a;
+  margin-bottom: 8px;
+  letter-spacing: .5px;
+}
+.mail{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.info p{
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.contatcs{
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.linkedin{
+  padding: 14px;
+  background-color: #5093e2;
+  width: 90px;
+  height: 15px;
+  display: flex;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.linkedin i{
+  margin-right: 8px;
+  color: #fff;
+}
+.linkedin a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  margin-top: -3px;
+}
+.email{
+  padding: 14px;
+  background-color: #fff;
+  width: 90px;
+  height: 15px;
+  display: flex;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.email i{
+  margin-right: 8px;
+  color: #000000;
+}
+.email a{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  margin-top: -3px;
+}
+.about-title{
+  margin-bottom: -10px;
+  color: #adadad;
+}
+.about{
+  padding: 0px 15px 0px 15px;
+  font-size: 14px;
+  margin-left: 15px;
+}
+.about p{
+  color: #adadad;
+}
+.interests-title{
+  margin-bottom: -10px;
+  color: #adadad;
+}
+.interests{
+  padding: 0 15px 0px 15px;
+  font-size: 14px;
+  margin-left: 15px;
+}
+.interests p{
+  color: #adadad;
+}
+.footer{
+  height: 4rem;
+  background-color: #161616;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.footer a{
+  font-size: 25px;
+  padding: 15px;
+  color: #adadad;
+}
